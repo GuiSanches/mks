@@ -1,0 +1,6 @@
+BaseEntity class
+Better number validation
+add link regex validation
+Add more tests
+Add dotenv
+Remove Swagger required mark
