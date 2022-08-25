@@ -9,8 +9,6 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // await app.init();
-
   const config = new DocumentBuilder()
     .setTitle('API - MKS')
     .setDescription('REST API para catálogo de filmes')
